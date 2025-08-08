@@ -1,0 +1,12 @@
+livekit-agents[openai,deepgram,turn-detector,silero]==1.2.0
+#git+https://github.com/livekit/agents.git@main#egg=livekit-agents[openai,deepgram,turn-detector,silero]
+#git+https://github.com/livekit/agents.git@be69745c2b52620a3502f33f553be1a09cbd5a75#subdirectory=livekit-agents&egg=livekit-agents[openai,deepgram,turn-detector,silero]
+livekit-plugins-noise-cancellation~=0.2.0
+python-dotenv~=1.0
+soundfile~=0.12.1
+numpy~=1.26
+supabase~=2.4
+aiohttp
+psutil>=7.0
+fastapi~=0.104.1
+uvicorn[standard]~=0.24.0
